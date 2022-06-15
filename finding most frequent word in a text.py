@@ -1,6 +1,6 @@
 def main():
 filename=raw_input("enter the file").strip()
-infile=open(filename,"r")
+infile=dopen(filename,"r")
 wordcounts={}
 for line in infile:
 processLine(line.lower(),wordcounts)
